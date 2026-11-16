@@ -1,0 +1,248 @@
+/* ===== AIRCI DASHBOARD - STYLES PERSONNALISÉS ===== */
+
+/* Navbar */
+.navbar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1030 !important;
+  border-bottom: 4px solid #009E60 !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  background: linear-gradient(135deg, #F77F00 0%, #e06500 50%, #d85a00 100%) !important;
+  padding: 0.6rem 1.5rem !important;
+  min-height: 72px !important;
+}
+
+.navbar-brand-custom {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.navbar-logo {
+  height: 52px;
+  margin-right: 4px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.navbar-title-wrap {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.navbar-title-primary {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #ffffff !important;
+}
+
+.navbar-title-secondary {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.9) !important;
+}
+
+.nav-tab-text {
+  font-weight: 600 !important;
+}
+
+.nav-link {
+  font-weight: 600;
+  transition: all 0.25s ease;
+  border-radius: 10px;
+  padding: 0.6rem 1.2rem !important;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  color: #ffffff !important;
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff !important;
+}
+
+/* Value Boxes */
+.bslib-value-box {
+  border-radius: 14px;
+  transition: all 0.35s ease;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.bslib-value-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.12);
+}
+
+/* Cards */
+.dashboard-card,
+.card {
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover,
+.card:hover {
+  box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+  transform: translateY(-3px);
+}
+
+.card-header,
+.card-header-custom {
+  background: linear-gradient(135deg, #F77F00 0%, #e06500 50%, #009E60 100%) !important;
+  font-weight: 700 !important;
+  border: none !important;
+  border-radius: 14px 14px 0 0 !important;
+  color: #ffffff !important;
+  padding: 1rem 1.5rem !important;
+}
+
+/* Sidebar */
+.sidebar {
+  background: linear-gradient(180deg, #ffffff 0%, #fafbfc 100%) !important;
+  border-right: 1px solid #e8ecf0 !important;
+}
+
+.sidebar-title-content {
+  font-weight: 700 !important;
+  border-bottom: 3px solid #F77F00;
+  padding-bottom: 0.75rem;
+}
+
+/* Page */
+.page-title {
+  color: #2c3e50 !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  font-size: 1.9rem !important;
+}
+
+.page-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #F77F00, #009E60);
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
+.page-subtitle {
+  text-align: center !important;
+  color: #5a6c7d !important;
+  font-size: 1.05rem !important;
+}
+
+/* Footer */
+.footer-professional {
+  margin-top: 4rem;
+  background: linear-gradient(180deg, #1a252f 0%, #2c3e50 50%, #1a252f 100%);
+  border-top: 4px solid #F77F00;
+  color: #e8eaed;
+}
+
+.footer-main {
+  padding: 3rem 0 2rem;
+}
+
+.footer-heading {
+  font-weight: 700 !important;
+  color: #F77F00 !important;
+  margin-bottom: 1.25rem !important;
+  text-transform: uppercase;
+}
+
+.footer-desc {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #b0b8c0;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background: rgba(247, 127, 0, 0.2);
+  color: #F77F00 !important;
+  border-radius: 10px;
+}
+
+.footer-social-link:hover {
+  background: #F77F00;
+  color: #ffffff !important;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  color: #b0b8c0 !important;
+}
+
+.footer-link:hover {
+  color: #F77F00 !important;
+}
+
+.footer-contact-item {
+  margin-bottom: 0.9rem;
+  font-size: 0.9rem;
+  color: #b0b8c0;
+}
+
+.footer-contact-icon {
+  color: #F77F00;
+}
+
+.footer-bottom {
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-copyright,
+.footer-credits {
+  font-size: 0.85rem;
+  color: #8a95a0;
+}
+
+/* Body */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #fafafa 0%, #f1f3f4 100%);
+  color: #2c3e50;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #F77F00;
+  box-shadow: 0 0 0 0.2rem rgba(247, 127, 0, 0.25);
+}
+
+.table thead th {
+  background: linear-gradient(135deg, #F77F00 0%, #009E60 100%);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.plotly {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.leaflet-container {
+  border-radius: 12px;
+  overflow: hidden;
+}

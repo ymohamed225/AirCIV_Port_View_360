@@ -1,0 +1,14 @@
+# R history and workspace
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+
+# Microsoft Office temporary lock files
+~$*
+
+# OS generated files
+.DS_Store
+Thumbs.db
